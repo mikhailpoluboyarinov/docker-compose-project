@@ -45,6 +45,10 @@ CREATE TABLE test (id SERIAL PRIMARY KEY, name TEXT);
 INSERT INTO test (name) VALUES ('Hello Docker');
 SELECT * FROM test;
 ```
+Чтобы выйти из дб нужно ввести
+```
+\q
+```
 
 ## 5. Перезапуск контейнеров и проверка сохранения данных
 
